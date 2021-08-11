@@ -1,0 +1,14 @@
+.heading{
+    background-color: rgb(251, 255, 0);
+    color: blue;
+    width: 30%;
+}
+canvas{
+animation-name: example;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:2px 2px 35px rgb(255, 255, 0)}
+    to{box-shadow:2px 2px 35px rgb(241, 118, 3)}
+}
